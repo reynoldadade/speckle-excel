@@ -8,7 +8,7 @@
       </template>
     </v-snackbar>
 
-    <v-navigation-drawer v-if="user" v-model="drawer" app>
+    <v-navigation-drawer v-if="user" v-model="drawer" app temporary>
       <v-list-item>
         <v-list-item-avatar>
           <v-avatar color="background" size="38">
